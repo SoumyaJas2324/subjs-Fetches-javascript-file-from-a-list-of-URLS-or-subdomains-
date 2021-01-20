@@ -7,8 +7,11 @@ Usage:
 Examples:
 
 $ cat urls.txt | subjs 
+
 $ subjs -i urls.txt
+
 $ cat hosts.txt | gau | subjs
+
 
 To display the help for the tool use the -h flag:
 
@@ -25,10 +28,12 @@ From Source:
 
 $ GO111MODULE=on go get -u -v github.com/lc/subjs
 
+
 From Binary
 
 You can download the pre-built binaries from the releases page and then move them into your $PATH.
 
 $ tar xvf subjs_1.0.0_linux_amd64.tar.gz
+
 $ mv subjs /usr/bin/subjs
 
